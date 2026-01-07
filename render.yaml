@@ -7,3 +7,4 @@ services:
     branch: main
     dockerfilePath: Dockerfile
     autoDeploy: true
+    startCommand: n8n
