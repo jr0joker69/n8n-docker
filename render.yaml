@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: n8n-docker-server
+    env: docker
+    plan: free
+    repo: https://github.com/jr0joker69/n8n-docker
+    branch: main
+    dockerfilePath: Dockerfile
+    autoDeploy: true
